@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0" />
+    <PackageReference Include="CsvHelper" Version="30.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Commands\Program.cs" />
+    <Compile Include="Commands\ImportBooks.cs" />
+    <Compile Include="Commands\ExportBooks.cs" />
+    <Compile Include="Commands\AddBook.cs" />
+    <Compile Include="Commands\UpdateBook.cs" />
+    <Compile Include="Commands\DeleteBook.cs" />
+    <Compile Include="Commands\FindBooks.cs" />
+    <Compile Include="Commands\SyncBooks.cs" />
+    <Compile Include="Commands\ImportBooksAdo.cs" />
+    <Compile Include="Data\BooksContext.cs" />
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\BooksXml.cs" />
+    <Compile Include="Logger.cs" />
+  </ItemGroup>
+
+</Project>

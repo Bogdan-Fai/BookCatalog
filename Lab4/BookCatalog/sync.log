@@ -1,0 +1,251 @@
+[2025-11-28 22:16:29] [INFO] Application started
+[2025-11-28 22:16:29] [WARNING] This is a warning message
+[2025-11-28 22:16:29] [SUCCESS] Operation completed successfully
+[2025-11-28 22:16:29] [ERROR] Test error occurred: Test exception
+[2025-11-28 22:26:01] [INFO] Application started
+[2025-11-28 22:26:01] [WARNING] This is a warning message
+[2025-11-28 22:26:01] [SUCCESS] Operation completed successfully
+[2025-11-28 22:26:01] [ERROR] Test error occurred: Test exception
+[2025-11-28 22:30:04] [INFO] Application started
+[2025-11-28 22:30:04] [WARNING] This is a warning message
+[2025-11-28 22:30:04] [SUCCESS] Operation completed successfully
+[2025-11-28 22:30:04] [ERROR] Test error occurred: Test exception
+[2025-11-28 22:30:04] [INFO] Starting ADO.NET import from: test_books.csv
+[2025-11-28 22:30:04] [INFO] Found 3 books in file
+[2025-11-28 22:30:04] [OPERATION] ADO.NET Import completed. Total: 3, Success: 3, Errors: 0
+[2025-11-28 22:32:33] [INFO] Starting ADO.NET import from: test_books.csv
+[2025-11-28 22:32:33] [INFO] Found 3 books in file
+[2025-11-28 22:32:33] [OPERATION] ADO.NET Import completed. Total: 3, Success: 3, Errors: 0
+[2025-11-28 22:33:14] [INFO] Adding new book: ISBN=9780451524935, Title=1984, Author=George Orwell
+[2025-11-28 22:33:14] [SUCCESS] Book added successfully: 9780451524935 - 1984
+[2025-11-28 22:33:45] [INFO] Starting database synchronization with JSON file
+[2025-11-28 22:33:45] [INFO] Read 5 books from JSON file
+[2025-11-28 22:33:45] [INFO] Synchronization differences found:
+[2025-11-28 22:33:45] [INFO]   - Books only in database: 0
+[2025-11-28 22:33:45] [INFO]   - Books only in JSON file: 0
+[2025-11-28 22:33:45] [INFO]   - Conflicting books: 0
+[2025-11-28 22:33:45] [INFO] No conflicts to resolve
+[2025-11-28 22:33:45] [SUCCESS] Updated books.json with current database state
+[2025-11-28 22:33:45] [SUCCESS] Synchronization completed successfully
+[2025-12-13 14:21:53] [INFO] Application started
+[2025-12-13 14:21:59] [INFO] Application started
+[2025-12-13 14:21:59] [INFO] Starting ADO.NET import from: ..\..\books.csv
+[2025-12-13 14:21:59] [INFO] Strategy: merge, Max errors: 5
+[2025-12-13 14:21:59] [ERROR] File not found: ..\..\books.csv
+[2025-12-13 14:22:10] [INFO] Application started
+[2025-12-13 14:22:10] [INFO] Starting ADO.NET import from: ..\books.csv
+[2025-12-13 14:22:10] [INFO] Strategy: merge, Max errors: 5
+[2025-12-13 14:22:11] [INFO] Found 1 books in file
+[2025-12-13 14:22:11] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2025-12-13 14:22:11] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2025-12-13 14:22:22] [INFO] Application started
+[2025-12-13 14:22:37] [INFO] Application started
+[2025-12-13 14:22:37] [INFO] Adding new book: ISBN=978-1234567890, Title=Test Book, Author=Test Author
+[2025-12-13 14:22:37] [SUCCESS] Book added successfully: 978-1234567890 - Test Book
+[2025-12-13 14:22:50] [INFO] Application started
+[2025-12-13 14:22:59] [INFO] Application started
+[2026-01-19 15:45:05] [INFO] Application started
+[2026-01-19 15:45:05] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 15:45:05] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 15:45:05] [ERROR] File not found: books.csv
+[2026-01-19 15:46:35] [INFO] Application started
+[2026-01-19 15:46:35] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 15:46:35] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 15:46:35] [INFO] Found 1 books in file
+[2026-01-19 15:46:35] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 15:46:35] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 15:46:56] [INFO] Application started
+[2026-01-19 15:46:56] [INFO] Starting ADO.NET import from: books.xml
+[2026-01-19 15:46:56] [INFO] Strategy: update, Max errors: 3
+[2026-01-19 15:46:56] [ERROR] Error reading XML file: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:46:56] [ERROR] Import failed: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:47:40] [INFO] Application started
+[2026-01-19 15:47:40] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 15:47:40] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 15:47:40] [INFO] Found 1 books in file
+[2026-01-19 15:47:40] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 15:47:40] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 15:47:53] [INFO] Application started
+[2026-01-19 15:47:53] [INFO] Starting ADO.NET import from: books.xml
+[2026-01-19 15:47:53] [INFO] Strategy: update, Max errors: 3
+[2026-01-19 15:47:53] [ERROR] Error reading XML file: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:47:53] [ERROR] Import failed: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:50:02] [INFO] Application started
+[2026-01-19 15:50:02] [INFO] Starting ADO.NET import from: ../books.xml
+[2026-01-19 15:50:02] [INFO] Strategy: update, Max errors: 3
+[2026-01-19 15:50:02] [ERROR] Error reading XML file: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:50:02] [ERROR] Import failed: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:50:45] [INFO] Application started
+[2026-01-19 15:50:45] [INFO] Adding new book: ISBN=1234567890, Title=C# Programming, Author=John Doe
+[2026-01-19 15:50:45] [SUCCESS] Book added successfully: 1234567890 - C# Programming
+[2026-01-19 15:50:54] [INFO] Application started
+[2026-01-19 15:51:06] [INFO] Application started
+[2026-01-19 15:51:15] [INFO] Application started
+[2026-01-19 15:51:20] [INFO] Application started
+[2026-01-19 15:51:34] [INFO] Application started
+[2026-01-19 15:51:34] [INFO] Starting database synchronization with JSON file
+[2026-01-19 15:51:34] [INFO] Conflict strategy: ask, Max errors: 5
+[2026-01-19 15:51:34] [INFO] Read 5 books from JSON file
+[2026-01-19 15:51:34] [INFO] Synchronization differences found:
+[2026-01-19 15:51:34] [INFO]   - Books only in database: 0
+[2026-01-19 15:51:34] [INFO]   - Books only in JSON file: 0
+[2026-01-19 15:51:34] [INFO]   - Conflicting books: 0
+[2026-01-19 15:51:34] [SUCCESS] No conflicts found - databases are synchronized
+[2026-01-19 15:51:34] [SUCCESS] Synchronization completed successfully
+[2026-01-19 15:51:42] [INFO] Application started
+[2026-01-19 15:51:42] [INFO] Starting database synchronization with JSON file
+[2026-01-19 15:51:42] [INFO] Conflict strategy: update_db, Max errors: 3
+[2026-01-19 15:51:42] [INFO] Read 5 books from JSON file
+[2026-01-19 15:51:42] [INFO] Synchronization differences found:
+[2026-01-19 15:51:42] [INFO]   - Books only in database: 0
+[2026-01-19 15:51:42] [INFO]   - Books only in JSON file: 0
+[2026-01-19 15:51:42] [INFO]   - Conflicting books: 0
+[2026-01-19 15:51:42] [SUCCESS] No conflicts found - databases are synchronized
+[2026-01-19 15:51:42] [SUCCESS] Synchronization completed successfully
+[2026-01-19 15:52:17] [INFO] Application started
+[2026-01-19 15:52:17] [INFO] Starting ADO.NET import from: books.xml
+[2026-01-19 15:52:17] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 15:52:17] [ERROR] Error reading XML file: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:52:17] [ERROR] Import failed: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:52:30] [INFO] Application started
+[2026-01-19 15:52:30] [INFO] Starting ADO.NET import from: books.xml
+[2026-01-19 15:52:30] [INFO] Strategy: skip, Max errors: 3
+[2026-01-19 15:52:30] [ERROR] Error reading XML file: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:52:30] [ERROR] Import failed: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:52:46] [INFO] Application started
+[2026-01-19 15:52:46] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 15:52:46] [INFO] Strategy: update, Max errors: 0
+[2026-01-19 15:52:46] [INFO] Found 1 books in file
+[2026-01-19 15:52:46] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: update)
+[2026-01-19 15:52:46] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 15:53:00] [INFO] Application started
+[2026-01-19 15:53:00] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 15:53:00] [INFO] Strategy: merge, Max errors: 2
+[2026-01-19 15:53:01] [INFO] Found 1 books in file
+[2026-01-19 15:53:01] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 15:53:01] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 15:53:07] [INFO] Application started
+[2026-01-19 15:53:07] [INFO] Starting database synchronization with JSON file
+[2026-01-19 15:53:07] [INFO] Conflict strategy: update_db, Max errors: 3
+[2026-01-19 15:53:08] [INFO] Read 5 books from JSON file
+[2026-01-19 15:53:08] [INFO] Synchronization differences found:
+[2026-01-19 15:53:08] [INFO]   - Books only in database: 0
+[2026-01-19 15:53:08] [INFO]   - Books only in JSON file: 0
+[2026-01-19 15:53:08] [INFO]   - Conflicting books: 0
+[2026-01-19 15:53:08] [SUCCESS] No conflicts found - databases are synchronized
+[2026-01-19 15:53:08] [SUCCESS] Synchronization completed successfully
+[2026-01-19 15:53:23] [INFO] Application started
+[2026-01-19 15:53:23] [INFO] Starting ADO.NET import from: invalid_books.csv
+[2026-01-19 15:53:23] [INFO] Strategy: merge, Max errors: 1
+[2026-01-19 15:53:23] [ERROR] File not found: invalid_books.csv
+[2026-01-19 15:54:35] [INFO] Application started
+[2026-01-19 15:54:35] [INFO] Starting ADO.NET import from: books.xml
+[2026-01-19 15:54:35] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 15:54:35] [ERROR] Error reading XML file: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:54:35] [ERROR] Import failed: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:54:59] [INFO] Application started
+[2026-01-19 15:54:59] [INFO] Starting ADO.NET import from: books.xml
+[2026-01-19 15:54:59] [INFO] Strategy: skip, Max errors: 3
+[2026-01-19 15:54:59] [ERROR] Error reading XML file: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:54:59] [ERROR] Import failed: There is an error in XML document (1, 23). (Inner: <Books xmlns=''> was not expected.)
+[2026-01-19 15:55:31] [INFO] Application started
+[2026-01-19 15:55:31] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 15:55:31] [INFO] Strategy: update, Max errors: 0
+[2026-01-19 15:55:31] [INFO] Found 1 books in file
+[2026-01-19 15:55:31] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: update)
+[2026-01-19 15:55:31] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 15:55:49] [INFO] Application started
+[2026-01-19 15:55:49] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 15:55:49] [INFO] Strategy: merge, Max errors: 2
+[2026-01-19 15:55:49] [INFO] Found 1 books in file
+[2026-01-19 15:55:49] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 15:55:49] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 15:56:17] [INFO] Application started
+[2026-01-19 15:56:17] [INFO] Starting database synchronization with JSON file
+[2026-01-19 15:56:17] [INFO] Conflict strategy: update_db, Max errors: 3
+[2026-01-19 15:56:17] [INFO] Read 5 books from JSON file
+[2026-01-19 15:56:17] [INFO] Synchronization differences found:
+[2026-01-19 15:56:17] [INFO]   - Books only in database: 0
+[2026-01-19 15:56:17] [INFO]   - Books only in JSON file: 0
+[2026-01-19 15:56:17] [INFO]   - Conflicting books: 0
+[2026-01-19 15:56:17] [SUCCESS] No conflicts found - databases are synchronized
+[2026-01-19 15:56:17] [SUCCESS] Synchronization completed successfully
+[2026-01-19 15:56:41] [INFO] Application started
+[2026-01-19 15:56:41] [INFO] Starting ADO.NET import from: invalid_books.csv
+[2026-01-19 15:56:41] [INFO] Strategy: merge, Max errors: 1
+[2026-01-19 15:56:41] [ERROR] File not found: invalid_books.csv
+[2026-01-19 16:19:34] [INFO] Application started
+[2026-01-19 16:19:34] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 16:19:34] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 16:19:34] [ERROR] File not found: books.csv
+[2026-01-19 16:20:01] [INFO] Application started
+[2026-01-19 16:20:01] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 16:20:01] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 16:20:01] [ERROR] File not found: books.csv
+[2026-01-19 16:20:34] [INFO] Application started
+[2026-01-19 16:20:34] [INFO] Starting ADO.NET import from: books.csv
+[2026-01-19 16:20:34] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 16:20:34] [ERROR] File not found: books.csv
+[2026-01-19 16:20:46] [INFO] Application started
+[2026-01-19 16:20:46] [INFO] Starting ADO.NET import from: ..\books.csv
+[2026-01-19 16:20:46] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 16:20:46] [INFO] Found 1 books in file
+[2026-01-19 16:20:46] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 16:20:46] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 16:20:58] [INFO] Application started
+[2026-01-19 16:20:58] [INFO] Starting ADO.NET import from: ..\books.xml
+[2026-01-19 16:20:58] [INFO] Strategy: update, Max errors: 3
+[2026-01-19 16:20:58] [WARNING] XSD schema file not found, skipping validation
+[2026-01-19 16:20:58] [INFO] Found 1 books in file
+[2026-01-19 16:20:58] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: update)
+[2026-01-19 16:20:58] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 16:21:20] [INFO] Application started
+[2026-01-19 16:21:20] [INFO] Starting ADO.NET import from: books.xml
+[2026-01-19 16:21:20] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 16:21:20] [ERROR] File not found: books.xml
+[2026-01-19 16:21:42] [INFO] Application started
+[2026-01-19 16:21:42] [INFO] Starting ADO.NET import from: ..\books.xml
+[2026-01-19 16:21:42] [INFO] Strategy: merge, Max errors: 5
+[2026-01-19 16:21:42] [WARNING] XSD schema file not found, skipping validation
+[2026-01-19 16:21:42] [INFO] Found 1 books in file
+[2026-01-19 16:21:42] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 16:21:42] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 16:21:50] [INFO] Application started
+[2026-01-19 16:21:50] [INFO] Starting ADO.NET import from: ..\books.xml
+[2026-01-19 16:21:50] [INFO] Strategy: skip, Max errors: 3
+[2026-01-19 16:21:50] [WARNING] XSD schema file not found, skipping validation
+[2026-01-19 16:21:50] [INFO] Found 1 books in file
+[2026-01-19 16:21:50] [WARNING] Book skipped (duplicate): 9780140449136 - The Odyssey
+[2026-01-19 16:21:50] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 0, Errors: 0
+[2026-01-19 16:22:01] [INFO] Application started
+[2026-01-19 16:22:01] [INFO] Starting ADO.NET import from: ..\books.csv
+[2026-01-19 16:22:01] [INFO] Strategy: update, Max errors: 0
+[2026-01-19 16:22:01] [INFO] Found 1 books in file
+[2026-01-19 16:22:01] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: update)
+[2026-01-19 16:22:01] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 16:22:17] [INFO] Application started
+[2026-01-19 16:22:17] [INFO] Starting ADO.NET import from: ..\books.csv
+[2026-01-19 16:22:17] [INFO] Strategy: merge, Max errors: 2
+[2026-01-19 16:22:17] [INFO] Found 1 books in file
+[2026-01-19 16:22:17] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 16:22:17] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
+[2026-01-19 16:22:24] [INFO] Application started
+[2026-01-19 16:22:24] [INFO] Starting database synchronization with JSON file
+[2026-01-19 16:22:24] [INFO] Conflict strategy: update_db, Max errors: 3
+[2026-01-19 16:22:25] [INFO] Read 5 books from JSON file
+[2026-01-19 16:22:25] [INFO] Synchronization differences found:
+[2026-01-19 16:22:25] [INFO]   - Books only in database: 0
+[2026-01-19 16:22:25] [INFO]   - Books only in JSON file: 0
+[2026-01-19 16:22:25] [INFO]   - Conflicting books: 0
+[2026-01-19 16:22:25] [SUCCESS] No conflicts found - databases are synchronized
+[2026-01-19 16:22:25] [SUCCESS] Synchronization completed successfully
+[2026-01-19 16:22:37] [INFO] Application started
+[2026-01-19 16:22:37] [INFO] Starting ADO.NET import from: ..\invalid_books.csv
+[2026-01-19 16:22:37] [INFO] Strategy: merge, Max errors: 1
+[2026-01-19 16:22:37] [ERROR] File not found: ..\invalid_books.csv
+[2026-01-19 16:23:07] [INFO] Application started
+[2026-01-19 16:23:07] [INFO] Starting ADO.NET import from: ..\books.csv
+[2026-01-19 16:23:07] [INFO] Strategy: merge, Max errors: 1
+[2026-01-19 16:23:07] [INFO] Found 1 books in file
+[2026-01-19 16:23:07] [INFO] Book processed: 9780140449136 - The Odyssey (Strategy: merge)
+[2026-01-19 16:23:07] [OPERATION] ADO.NET Import - COMMITTED completed. Total: 1, Success: 1, Errors: 0
